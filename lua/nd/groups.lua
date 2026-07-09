@@ -230,7 +230,7 @@ function M.setup(config)
     GitGutterAdd = { link = "GitSignsAdd" },
     GitGutterChange = { link = "GitSignsChange" },
     GitGutterDelete = { link = "GitSignsDelete" },
-    TelescopeBorder = { fg = c.nord6, bg = popup_bg },
+    TelescopeBorder = { fg = "#FFFFFF", bg = popup_bg },
     TelescopePromptBorder = { fg = c.nord6, bg = popup_bg },
     TelescopeResultsBorder = { fg = c.nord6, bg = popup_bg },
     TelescopePreviewBorder = { fg = c.nord6, bg = popup_bg },

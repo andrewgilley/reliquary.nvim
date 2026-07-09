@@ -19,6 +19,10 @@ local defaults = {
     typescriptreact = "rp",
     javascript = "rp",
     javascriptreact = "rp",
+    cpp = "md",
+    c = "mc",
+    yaml = "ay",
+    toml = "ay",
   },
   schemes = {},
 }

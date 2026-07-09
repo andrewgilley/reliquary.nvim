@@ -302,7 +302,7 @@ function M.setup(config)
     GitSignsDelete = { fg = theme.vcs.removed, bg = theme.ui.bg_gutter },
     TreesitterContext = { link = "Folded" },
     TreesitterContextLineNumber = { fg = theme.ui.special, bg = theme.ui.bg_gutter },
-    TelescopeBorder = { fg = c.white, bg = theme.ui.bg },
+    TelescopeBorder = { fg = "#FFFFFF", bg = theme.ui.bg },
     TelescopeTitle = { fg = theme.ui.special },
     TelescopeSelection = { link = "CursorLine" },
     TelescopeSelectionCaret = { link = "CursorLineNr" },

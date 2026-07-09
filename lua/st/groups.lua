@@ -123,7 +123,7 @@ function M.setup(config)
     GitSignsAdd = { fg = c.light_cyan },
     GitSignsChange = { fg = c.gold },
     GitSignsDelete = { fg = c.muted_red },
-    TelescopeBorder = { fg = c.white },
+    TelescopeBorder = { fg = "#FFFFFF" },
     TelescopeSelection = { bg = c.graphite, bold = true },
     TelescopeMatching = { fg = c.gold, bold = true },
     BlinkCmpLabelMatch = { fg = c.gold, bold = true },

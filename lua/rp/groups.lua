@@ -170,7 +170,7 @@ function M.setup(config)
     GitSignsAdd = { fg = c.foam },
     GitSignsChange = { fg = c.gold },
     GitSignsDelete = { fg = c.love },
-    TelescopeBorder = { fg = c.highlight_high },
+    TelescopeBorder = { fg = "#FFFFFF" },
     TelescopeSelection = { bg = c.highlight_med, bold = true },
     TelescopeMatching = { fg = c.rose, bold = true },
     BlinkCmpLabelMatch = { fg = c.rose, bold = true },

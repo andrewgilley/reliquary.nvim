@@ -133,7 +133,7 @@ function M.setup(config)
     GitSignsAdd = { fg = c.green },
     GitSignsChange = { fg = c.orange },
     GitSignsDelete = { fg = c.red },
-    TelescopeBorder = { fg = c.purple },
+    TelescopeBorder = { fg = "#FFFFFF" },
     TelescopeSelection = { bg = c.current_line, bold = true },
     TelescopeMatching = { fg = c.yellow, bold = true },
     BlinkCmpLabelMatch = { fg = c.green, bold = true },

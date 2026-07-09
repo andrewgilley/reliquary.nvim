@@ -6,9 +6,12 @@ Reliquary is a bundled Neovim colorscheme switcher that includes colorschemes th
 
 Includes:
 
+- `ay`
 - `dc`
 - `gn`
 - `kg`
+- `mc`
+- `md`
 - `nd`
 - `rp`
 - `st`
@@ -29,6 +32,9 @@ colorscheme automatically.
 | `zig` | `gn` |
 | `typescript`, `typescriptreact` | `rp` |
 | `javascript`, `javascriptreact` | `rp` |
+| `cpp` | `md` |
+| `c` | `mc` |
+| `yaml`, `toml` | `ay` |
 
 ## Installation
 
@@ -62,6 +68,10 @@ require("reliquary").setup({
     typescriptreact = "rp",
     javascript = "rp",
     javascriptreact = "rp",
+    cpp = "md",
+    c = "mc",
+    yaml = "ay",
+    toml = "ay",
   },
   preserve_numberline = true,
   fallback = nil,
@@ -77,6 +87,15 @@ require("reliquary").setup({
       transparent = false,
     },
     rp = {
+      transparent = false,
+    },
+    md = {
+      transparent = false,
+    },
+    mc = {
+      transparent = false,
+    },
+    ay = {
       transparent = false,
     },
   },
@@ -97,7 +116,10 @@ The bundled colorschemes are also available directly:
 ```vim
 :colorscheme dc
 :colorscheme gn
+:colorscheme ay
 :colorscheme kg
+:colorscheme mc
+:colorscheme md
 :colorscheme nd
 :colorscheme rp
 :colorscheme st
