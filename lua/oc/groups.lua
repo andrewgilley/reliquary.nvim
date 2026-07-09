@@ -49,7 +49,7 @@ function M.setup(config)
     Search = { fg = c.bg, bg = c.yellow },
     SignColumn = { fg = c.grey1, bg = normal_bg },
     SpecialKey = { fg = c.grey1 },
-    StatusLine = { fg = c.grey3, bg = c.bg2 },
+    StatusLine = { fg = c.grey3, bg = normal_bg },
     StatusLineNC = { fg = c.grey2, bg = normal_bg },
     Substitute = { fg = c.bg, bg = c.orange },
     TabLine = { fg = c.grey2, bg = c.bg2 },
