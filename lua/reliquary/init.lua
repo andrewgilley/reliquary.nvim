@@ -17,6 +17,8 @@ local defaults = {
     zig = "gn",
     typescript = "rp",
     typescriptreact = "rp",
+    javascript = "rp",
+    javascriptreact = "rp",
   },
   schemes = {},
 }

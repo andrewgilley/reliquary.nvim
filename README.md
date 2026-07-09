@@ -28,6 +28,7 @@ colorscheme automatically.
 | `lua` | `tk` |
 | `zig` | `gn` |
 | `typescript`, `typescriptreact` | `rp` |
+| `javascript`, `javascriptreact` | `rp` |
 
 ## Installation
 
@@ -59,6 +60,8 @@ require("reliquary").setup({
     zig = "gn",
     typescript = "rp",
     typescriptreact = "rp",
+    javascript = "rp",
+    javascriptreact = "rp",
   },
   preserve_numberline = true,
   fallback = nil,
