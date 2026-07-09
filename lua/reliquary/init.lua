@@ -15,6 +15,8 @@ local defaults = {
     odin = "dc",
     lua = "tk",
     zig = "gn",
+    typescript = "rp",
+    typescriptreact = "rp",
   },
   schemes = {},
 }

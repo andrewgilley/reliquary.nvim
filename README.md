@@ -8,6 +8,7 @@ A bundled Neovim colorscheme switcher that includes:
 - `gn`
 - `kg`
 - `nd`
+- `rp`
 - `st`
 - `tk`
 
@@ -24,6 +25,7 @@ colorscheme automatically.
 | `odin` | `dc` |
 | `lua` | `tk` |
 | `zig` | `gn` |
+| `typescript`, `typescriptreact` | `rp` |
 
 ## Installation
 
@@ -53,6 +55,8 @@ require("reliquary").setup({
     odin = "dc",
     lua = "tk",
     zig = "gn",
+    typescript = "rp",
+    typescriptreact = "rp",
   },
   preserve_numberline = true,
   fallback = nil,
@@ -65,6 +69,9 @@ require("reliquary").setup({
       terminalColors = true,
     },
     nd = {
+      transparent = false,
+    },
+    rp = {
       transparent = false,
     },
   },
@@ -87,6 +94,7 @@ The bundled colorschemes are also available directly:
 :colorscheme gn
 :colorscheme kg
 :colorscheme nd
+:colorscheme rp
 :colorscheme st
 :colorscheme tk
 ```
