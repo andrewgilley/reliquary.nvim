@@ -74,7 +74,7 @@ function M.setup(config)
     TabLine = { fg = c.nord3_bright, bg = c.nord1 },
     TabLineFill = { bg = normal_bg },
     TabLineSel = { fg = c.nord6, bg = c.nord2, bold = true },
-    WinSeparator = { fg = c.nord6, bg = normal_bg },
+    WinSeparator = { fg = c.nord6, bg = normal_bg, bold = true },
     VertSplit = { link = "WinSeparator" },
     WildMenu = { fg = c.nord0, bg = c.nord8, bold = true },
     Directory = { fg = c.nord8 },
