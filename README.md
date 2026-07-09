@@ -1,8 +1,10 @@
 # reliquary.nvim
 
+Reliquary is a bundled Neovim colorscheme switcher that includes colorschemes that apply to certain file types.
+
 <img width="1917" height="1062" alt="thison" src="https://github.com/user-attachments/assets/3943583f-0200-40aa-a622-bbff79c6c8e3" />
 
-A bundled Neovim colorscheme switcher that includes:
+Includes:
 
 - `dc`
 - `gn`
