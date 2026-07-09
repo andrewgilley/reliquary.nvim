@@ -21,7 +21,7 @@ local original = {
   cursor = "#FFCC00",
   title = "#EEFFFF",
   error = "#FF5370",
-  bg = "#212121",
+  bg = "#242424",
   bg_alt = "#1A1A1A",
   fg = "#B0BEC5",
   fg_dark = "#8C8B8B",
@@ -33,7 +33,7 @@ local original = {
   disabled = "#474747",
   accent = "#FF9800",
   comments = "#515151",
-  line_numbers = "#424242",
+  line_numbers = "#5C5C5C",
 }
 
 local palette = {}
