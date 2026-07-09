@@ -20,7 +20,7 @@ local defaults = {
     javascript = "rp",
     javascriptreact = "rp",
     cpp = "md",
-    c = "mc",
+    c = "oc",
     yaml = "ay",
     toml = "ay",
   },

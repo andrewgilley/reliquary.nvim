@@ -13,6 +13,7 @@ Includes:
 - `mc`
 - `md`
 - `nd`
+- `oc`
 - `rp`
 - `st`
 - `tk`
@@ -33,7 +34,7 @@ colorscheme automatically.
 | `typescript`, `typescriptreact` | `rp` |
 | `javascript`, `javascriptreact` | `rp` |
 | `cpp` | `md` |
-| `c` | `mc` |
+| `c` | `oc` |
 | `yaml`, `toml` | `ay` |
 
 ## Installation
@@ -69,7 +70,7 @@ require("reliquary").setup({
     javascript = "rp",
     javascriptreact = "rp",
     cpp = "md",
-    c = "mc",
+    c = "oc",
     yaml = "ay",
     toml = "ay",
   },
@@ -93,6 +94,9 @@ require("reliquary").setup({
       transparent = false,
     },
     mc = {
+      transparent = false,
+    },
+    oc = {
       transparent = false,
     },
     ay = {
@@ -121,6 +125,7 @@ The bundled colorschemes are also available directly:
 :colorscheme mc
 :colorscheme md
 :colorscheme nd
+:colorscheme oc
 :colorscheme rp
 :colorscheme st
 :colorscheme tk
