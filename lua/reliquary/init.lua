@@ -3,6 +3,7 @@ local M = {}
 local defaults = {
   enabled = true,
   fallback = nil,
+  preserve_numberline = true,
   filetypes = {
     python = "st",
     rust = "kg",
@@ -22,6 +23,41 @@ M.config = vim.deepcopy(defaults)
 M.current = nil
 
 local group = vim.api.nvim_create_augroup("Reliquary", {})
+
+local function snapshot_numberline()
+  if not M.config.preserve_numberline then
+    return nil
+  end
+
+  local wins = {}
+
+  for _, win in ipairs(vim.api.nvim_list_wins()) do
+    wins[win] = {
+      number = vim.wo[win].number,
+      relativenumber = vim.wo[win].relativenumber,
+    }
+  end
+
+  return wins
+end
+
+local function restore_numberline(wins)
+  if not wins then
+    return
+  end
+
+  for win, opts in pairs(wins) do
+    if vim.api.nvim_win_is_valid(win) then
+      if opts.number then
+        vim.wo[win].number = true
+      end
+
+      if opts.relativenumber then
+        vim.wo[win].relativenumber = true
+      end
+    end
+  end
+end
 
 local function configure_schemes(schemes)
   for name, opts in pairs(schemes or {}) do
@@ -66,6 +102,7 @@ function M.apply(bufnr, opts)
     return scheme
   end
 
+  local numberline = snapshot_numberline()
   local ok, err = pcall(vim.cmd.colorscheme, scheme)
 
   if not ok then
@@ -75,6 +112,7 @@ function M.apply(bufnr, opts)
     return nil
   end
 
+  restore_numberline(numberline)
   M.current = scheme
   return scheme
 end

@@ -52,6 +52,7 @@ require("reliquary").setup({
     lua = "tk",
     zig = "gn",
   },
+  preserve_numberline = true,
   fallback = nil,
   schemes = {
     st = {
