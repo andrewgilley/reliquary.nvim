@@ -3,6 +3,7 @@
 Reliquary is a bundled Neovim colorscheme switcher that includes colorschemes that apply to certain file types.
 
 <img width="1917" height="1062" alt="thison" src="https://github.com/user-attachments/assets/3943583f-0200-40aa-a622-bbff79c6c8e3" />
+<img width="1917" height="1067" alt="Screenshot 2026-07-09 185937" src="https://github.com/user-attachments/assets/6c97b4b3-9769-4cb9-b6a2-b97a76e4bae5" />
 
 Includes:
 
