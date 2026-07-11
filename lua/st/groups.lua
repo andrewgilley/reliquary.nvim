@@ -16,7 +16,7 @@ function M.setup(config)
     NonText = { fg = c.cool_gray, bg = normal_bg },
     EndOfBuffer = { fg = c.slate, bg = normal_bg },
     Whitespace = { fg = c.slate },
-    LineNr = { fg = c.cool_gray, bg = c.dark_gray },
+    LineNr = { fg = c.charcoal, bg = c.dark_gray },
     CursorLineNr = { fg = c.gold, bg = c.dark_gray, bold = true },
     CursorLine = { bg = c.dark_slate },
     CursorColumn = { bg = c.dark_slate },
