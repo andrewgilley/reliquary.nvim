@@ -111,7 +111,7 @@ function M.setup(config)
     DiffText = { bg = theme.diff.text },
     EndOfBuffer = { fg = theme.ui.bg },
     ErrorMsg = { fg = theme.diag.error },
-    WinSeparator = { fg = "#FFFFFF", bg = config.dimInactive and theme.ui.bg_dim or none },
+    WinSeparator = { fg = theme.ui.nontext, bg = config.dimInactive and theme.ui.bg_dim or none },
     VertSplit = { link = "WinSeparator" },
     Folded = { fg = theme.ui.special, bg = theme.ui.bg_p1 },
     FoldColumn = { fg = theme.ui.nontext, bg = theme.ui.bg_gutter },
