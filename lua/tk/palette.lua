@@ -1,5 +1,5 @@
 local original = {
-  bg = "#1a1b26",
+  bg = "#26273b",
   bg_dark = "#16161e",
   bg_highlight = "#292e42",
   terminal_black = "#414868",
