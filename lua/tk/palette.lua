@@ -1,5 +1,5 @@
 local original = {
-  dark_indigo_gray = "#26273b",
+  dark_indigo_gray = "#1e1f2f",
   near_black_blue = "#16161e",
   charcoal_indigo = "#292e42",
   muted_indigo = "#414868",
