@@ -40,7 +40,7 @@ function M.setup(config)
     PmenuExtra = { fg = c.lavender_gray, bg = c.dark_violet_gray },
     PmenuSbar = { bg = c.dark_violet_gray },
     PmenuThumb = { bg = c.medium_violet_gray },
-    StatusLine = { fg = c.lavender_gray, bg = normal_bg },
+    StatusLine = { fg = c.muted_violet_gray, bg = normal_bg },
     StatusLineNC = { fg = c.muted_violet_gray, bg = normal_bg },
     TabLine = { fg = c.lavender_gray, bg = c.dark_violet_gray },
     TabLineFill = { bg = normal_bg },
