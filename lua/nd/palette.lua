@@ -1,42 +1,26 @@
 local palette = {
-  nord0 = "#2E3440",
-  nord1 = "#3B4252",
-  nord2 = "#434C5E",
-  nord3 = "#4C566A",
-  nord3_bright = "#616E88",
-  nord4 = "#D8DEE9",
-  nord5 = "#E5E9F0",
-  nord6 = "#ECEFF4",
-  nord7 = "#8FBCBB",
-  nord8 = "#88C0D0",
-  nord9 = "#81A1C1",
-  nord10 = "#5E81AC",
-  nord11 = "#BF616A",
-  nord12 = "#D08770",
-  nord13 = "#EBCB8B",
-  nord14 = "#A3BE8C",
-  nord15 = "#B48EAD",
+  dark_blue_gray = "#2E3440",
+  charcoal_blue = "#3B4252",
+  slate_blue_gray = "#434C5E",
+  muted_slate_blue = "#4C566A",
+  medium_slate_blue = "#616E88",
+  pale_blue_gray = "#D8DEE9",
+  icy_blue_white = "#E5E9F0",
+  cool_white = "#ECEFF4",
+  muted_aqua = "#8FBCBB",
+  light_cyan_blue = "#88C0D0",
+  muted_cornflower = "#81A1C1",
+  steel_blue = "#5E81AC",
+  muted_red = "#BF616A",
+  muted_orange = "#D08770",
+  pale_gold = "#EBCB8B",
+  sage_green = "#A3BE8C",
+  dusty_violet = "#B48EAD",
 
-  diff_add = "#314537",
-  diff_change = "#2f4158",
-  diff_delete = "#51343b",
-  diff_text = "#3f536e",
+  dark_forest_green = "#314537",
+  dark_steel_blue = "#2f4158",
+  dark_burgundy = "#51343b",
+  deep_slate_blue = "#3f536e",
 }
-
-palette.background = palette.nord0
-palette.sidebar = palette.nord1
-palette.float = palette.nord1
-palette.selection = palette.nord2
-palette.comment = palette.nord3_bright
-palette.foreground = palette.nord4
-palette.foreground_bright = palette.nord6
-palette.red = palette.nord11
-palette.orange = palette.nord12
-palette.yellow = palette.nord13
-palette.green = palette.nord14
-palette.purple = palette.nord15
-palette.cyan = palette.nord8
-palette.blue = palette.nord9
-palette.dark_blue = palette.nord10
 
 return palette
