@@ -18,7 +18,7 @@ function M.setup(config)
     CurSearch = { fg = c.near_black, bg = c.bright_yellow },
     Cursor = { fg = c.near_black, bg = c.soft_white },
     CursorColumn = { bg = c.charcoal_black },
-    CursorLine = { bg = c.charcoal_black },
+    CursorLine = { bg = c.charcoal_gray },
     CursorLineNr = { fg = c.soft_white, bold = true },
     CursorLineSign = { link = "CursorLine" },
     Directory = { fg = c.light_cornflower_blue },
