@@ -1,5 +1,5 @@
 local original = {
-  retro_black = "#1F1F1F",
+  onyx_black = "#171717",
   deep_charcoal = "#161616",
   charcoal_black = "#171717",
   dark_charcoal = "#1e1e1e",
