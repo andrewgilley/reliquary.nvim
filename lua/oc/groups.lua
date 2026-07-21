@@ -3,7 +3,7 @@ local M = {}
 function M.setup(config)
   local c = require("oc.palette")
   local none = "NONE"
-  local normal_bg = config.transparent and none or c.near_black
+  local normal_bg = config.transparent and none or c.retro_black
   local comment_style = config.styles.comments or {}
   local keyword_style = config.styles.keywords or {}
 
