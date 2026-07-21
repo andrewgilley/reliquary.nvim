@@ -212,7 +212,7 @@ function M.setup(config)
     CmpItemAbbrMatch = { fg = c.soft_white, bold = true },
     CmpItemAbbrMatchFuzzy = { fg = c.soft_white, bold = true },
 
-    OilFile = { fg = c.pale_cyan },
+    OilFile = { fg = c.light_gray },
     OilDir = { fg = c.pale_cyan },
   }
 
