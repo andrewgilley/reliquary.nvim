@@ -211,6 +211,9 @@ function M.setup(config)
     BlinkCmpLabelMatch = { fg = c.soft_white, bold = true },
     CmpItemAbbrMatch = { fg = c.soft_white, bold = true },
     CmpItemAbbrMatchFuzzy = { fg = c.soft_white, bold = true },
+
+    OilFile = { fg = c.pale_cyan },
+    OilDir = { fg = c.pale_cyan },
   }
 
   local links = {
