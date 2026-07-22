@@ -20,7 +20,7 @@ function M.setup(config)
     SpecialKey = { fg = c.lavender_gray },
     LineNr = { fg = c.muted_violet_gray, bg = normal_bg },
     CursorLineNr = { fg = c.pale_rose, bg = normal_bg, bold = true },
-    CursorLine = { bg = c.deep_violet_gray },
+    CursorLine = { bg = c.midnight_violet },
     CursorColumn = { link = "CursorLine" },
     ColorColumn = { bg = c.deep_violet_gray },
     SignColumn = { fg = c.lavender_gray, bg = normal_bg },
