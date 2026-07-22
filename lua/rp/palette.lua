@@ -1,6 +1,6 @@
 local original = {
   near_black_violet = "#16141f",
-  midnight_violet = "#191724",
+  midnight_violet = "#2b2840",
   dark_violet_gray = "#1f1d2e",
   charcoal_violet = "#26233a",
   muted_violet_gray = "#6e6a86",
