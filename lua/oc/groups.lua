@@ -61,7 +61,7 @@ function M.setup(config)
     WarningMsg = { fg = c.bright_yellow },
     Whitespace = { fg = c.dark_gray },
     WildMenu = { link = "PmenuSel" },
-    WinSeparator = { fg = c.dark_gray },
+    WinSeparator = { fg = c.medium_gray },
 
     Comment = vim.tbl_extend("force", { fg = c.medium_gray }, comment_style),
     Constant = { fg = c.pale_cyan },
