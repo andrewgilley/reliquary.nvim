@@ -45,7 +45,7 @@ function M.setup(config)
     TabLine = { fg = c.medium_gray, bg = c.near_black },
     TabLineFill = { bg = normal_bg },
     TabLineSel = { fg = c.icy_white, bg = c.medium_charcoal, bold = true },
-    WinSeparator = { fg = c.icy_white, bg = normal_bg },
+    WinSeparator = { fg = c.light_blue_gray, bg = normal_bg },
     VertSplit = { link = "WinSeparator" },
     WildMenu = { fg = c.charcoal_black, bg = c.vivid_orange, bold = true },
     Directory = { fg = c.light_cornflower_blue },
