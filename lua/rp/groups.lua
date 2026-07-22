@@ -9,7 +9,7 @@ function M.setup(config)
 
   local g = {
     Normal = { fg = c.pale_lavender, bg = normal_bg },
-    NormalNC = { fg = c.lavender_gray, bg = config.transparent and none or c.near_black_violet },
+    NormalNC = { fg = c.lavender_gray, bg = normal_bg },
     NormalFloat = { fg = c.pale_lavender, bg = c.dark_violet_gray },
     FloatBorder = { fg = c.medium_violet_gray, bg = c.dark_violet_gray },
     FloatTitle = { fg = c.pale_rose, bg = c.dark_violet_gray, bold = true },
